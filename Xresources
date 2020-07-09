@@ -1,0 +1,42 @@
+xterm*faceSize: 12
+xterm*faceName: xos4 Terminus
+xterm.vt100.internalBorder: 20
+XTerm*vt100.translations: #override \
+	Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+	Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+! special
+*.foreground:   #FFFFFF
+*.background:   #2B1017
+*.cursorColor:  #9faab8
+
+!black
+!XTerm*color0:  #222222
+!XTerm*color8:  #554444
+
+!red
+!XTerm*color1:  #884422
+!XTerm*color9:  #cc5533
+
+!green
+!XTerm*color2:  #778800
+!XTerm*color10: #88aa22
+
+!yellow
+!XTerm*color3: #e8ae5b
+!XTerm*color11: #ea6868
+
+!blue
+!XTerm*color4:  #8866cc
+!XTerm*color12: #9977dd
+
+!magneta
+!XTerm*color5:  #885500
+!XTerm*color13: #996600
+
+!cyan
+!XTerm*color6:  #5555aa
+!XTerm*color14: #7777aa
+
+!white
+!XTerm*color7:  #665c64
+!XTerm*color15: #c3c2c5
