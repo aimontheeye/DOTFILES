@@ -1,42 +1,42 @@
-xterm*faceSize: 12
+xterm*faceSize: 13
 xterm*faceName: xos4 Terminus
 xterm.vt100.internalBorder: 20
 XTerm*vt100.translations: #override \
-	Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
-	Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+        Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+        Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
 ! special
-*.foreground:   #FFFFFF
-*.background:   #2B1017
-*.cursorColor:  #9faab8
+*.foreground:   #b9b9b9
+*.background:   #101010
+*.cursorColor:  #b9b9b9
 
-!black
-!XTerm*color0:  #222222
-!XTerm*color8:  #554444
+! black
+*.color0:       #101010
+*.color8:       #525252
 
-!red
-!XTerm*color1:  #884422
-!XTerm*color9:  #cc5533
+! red
+*.color1:       #7c7c7c
+*.color9:       #7c7c7c
 
-!green
-!XTerm*color2:  #778800
-!XTerm*color10: #88aa22
+! green
+*.color2:       #8e8e8e
+*.color10:      #8e8e8e
 
-!yellow
-!XTerm*color3: #e8ae5b
-!XTerm*color11: #ea6868
+! yellow
+*.color3:       #a0a0a0
+*.color11:      #a0a0a0
 
-!blue
-!XTerm*color4:  #8866cc
-!XTerm*color12: #9977dd
+! blue
+*.color4:       #686868
+*.color12:      #686868
 
-!magneta
-!XTerm*color5:  #885500
-!XTerm*color13: #996600
+! magenta
+*.color5:       #747474
+*.color13:      #747474
 
-!cyan
-!XTerm*color6:  #5555aa
-!XTerm*color14: #7777aa
+! cyan
+*.color6:       #868686
+*.color14:      #868686
 
-!white
-!XTerm*color7:  #665c64
-!XTerm*color15: #c3c2c5
+! white
+*.color7:       #b9b9b9
+*.color15:      #f7f7f7
