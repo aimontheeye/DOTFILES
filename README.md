@@ -1,4 +1,4 @@
 # Bedrock x Ratpoison
 
-These are my dotfiles. If you want to use them, clone this git repository and place all files except the kitty.conf into your home folder.
-The kitty.conf belongs into your ~/.config/kitty/ folder.
+These are my dotfiles, have fun using and configuring them till they fit your liking.
+If you have any questions, open an issue or write me on discord (confusio#0001).
