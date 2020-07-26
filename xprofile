@@ -1,0 +1,4 @@
+nitrogen --restore &
+xinput --set-prop 15 "libinput Accel Speed" -0.9 &
+xinput --set-prop 15 "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 2 &
+xrandr --output DP-0 --mode 1920x1080 --rate 144.00 &
